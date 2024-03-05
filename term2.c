@@ -281,19 +281,19 @@ int main()
     return 0;
 }
 void insert(int a[],int n,int ele,int pos)
-// {
-//     int i;
-//     for(i=n;i>=pos;i--)
-//     {
-//         a[i]=a[i-1];
-//     }
-//     a[pos-1]=ele;
-//     for(i=0;i<=n;i++)
-//     {
-//         printf("%d\t",a[i]);
-//     }
-//     printf("\n");    
-// }
+{
+    int i;
+    for(i=n;i>=pos;i--)
+    {
+        a[i]=a[i-1];
+    }
+    a[pos-1]=ele;
+    for(i=0;i<=n;i++)
+    {
+        printf("%d\t",a[i]);
+    }
+    printf("\n");    
+}
 void bubble(int a[],int n)
 {
     int i,j,tmp;
